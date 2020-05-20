@@ -1,0 +1,17 @@
+<lang class="{% if page.title == 'Home' %}lang-home{% else %}lang{% endif %}">
+    <ul class="list">
+        {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
+        {% for post in posts %}
+        <li class="item">
+            <a href="{{ post.url }}" class="link">{{ post.lang }}</a>
+        </li>
+        {% endfor %}
+
+        {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
+        {% for page in pages %}
+        <li class="item">
+            <a href="{{ page.url }}" class="link">{{ page.lang }}</a>
+        </li>
+        {% endfor %}
+    </ul>
+</lang>

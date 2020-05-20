@@ -2,6 +2,8 @@
 title: "Markdown Common Elements"
 layout: post
 date: 2016-02-24 22:44
+lang: English
+ref: markdowncommon
 image: /assets/images/markdown.jpg
 headerImage: false
 tag:
@@ -151,7 +153,7 @@ A HTML Example:
 
 {% highlight html %}
 <!DOCTYPE html>
-<html lang="en">
+<html lang="English">
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
