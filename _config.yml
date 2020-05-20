@@ -65,6 +65,11 @@ authors:
     external-image: false
     picture: assets/images/profile.jpg
     # twitter: jamesfoster
+  蔡喆:
+    name: 蔡喆
+    bio: 不畏浮云遮望眼
+    external-image: false
+    picture: assets/images/profile.jpg
     
 
 # do you want a larger site? change the option below
