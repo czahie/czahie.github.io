@@ -1,6 +1,10 @@
 # main text of home
-name: Zhe Cai
-bio: A man who is chasing dreams
+name: 
+  English: Zhe Cai
+  中文: 蔡喆
+bio: 
+  English: A man who is chasing dreams
+  中文: 不畏浮云遮望眼
 
 # twitter summary info
 description: A blog about technology and stuff related
@@ -104,6 +108,21 @@ show-author: true
 
 # do you want some animations?
 animation: true
+
+# multi-language support
+lang:
+  English:
+    home: "Home"
+    blog: "Blog"
+    projects: "Projects"
+    about: "About"
+    resume: "Résumé"
+  中文:
+    home:  "首页"
+    blog: "博客"
+    projects: "项目"
+    about: "关于"
+    resume: "简历"
 
 # add default values to specific pages or layouts
 defaults:
