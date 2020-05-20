@@ -108,6 +108,7 @@ animation: true
 # multi-language support
 lang:
   English:
+    url: https://czahie.github.io/
     name: "Zhe Cai"
     bio: "A man who is chasing dreams"
     home: "Home"
@@ -116,6 +117,7 @@ lang:
     about: "About"
     resume: "Résumé"
   中文:
+    url: https://czahie.github.io/index-zh
     name: "蔡喆"
     bio: 不畏浮云遮望眼
     home:  "首页"
