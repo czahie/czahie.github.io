@@ -1,0 +1,16 @@
+---
+title: "为自己的Jekyll博客网站提供多语言支持"
+layout: post
+date: 2020-05-20 17:35
+lang: 中文
+ref: jekyll-multi-lang
+# image: /assets/images/markdown.jpg
+# headerImage: false
+tag:
+- jekyll
+category: blog
+author: joe
+description: ""
+---
+
+## 目标
