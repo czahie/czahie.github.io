@@ -1,4 +1,6 @@
 ---
+lang: English
+ref: about
 title: About
 layout: page
 ---
