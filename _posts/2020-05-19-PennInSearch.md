@@ -1,5 +1,5 @@
 ---
-title: ":mag: PennInSearch"
+title: "🔍 PennInSearch"
 layout: post
 date: 2020-05-19 19:10
 lang: English

@@ -1,5 +1,5 @@
 ---
-title: ":cloud: PennCloud"
+title: "☁️ PennCloud"
 layout: post
 date: 2020-05-19 19:08
 lang: English
