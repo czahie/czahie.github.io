@@ -24,6 +24,9 @@ permalink: /:title/
 # To enable google analytics, supply your token below
 analytics-google: 'UA-167321332-1'
 
+# To enable baidu analytics, supply your token below
+analytics-baidu: 7cfa01ef1704d8a568e8a0faf14e33ea
+
 # To enable piwik tracking, supply your url & site ID below
 # analytics-piwik-url: 'piwik.my-host.com'
 # analytics-piwik-id: 1
