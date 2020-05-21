@@ -6,11 +6,11 @@ layout: page
 ---
 ![Profile Image]({% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %})
 
-I'm a master student in University of Pennsylvania majoring in Computer and Information Technology & Scientific Computing.
+我是蔡喆，目前宾夕法尼亚大学计算机科学硕士在读。
 \\
-I will work as an SDE Intern at AWS this summer. 
+今年暑假我将在亚马逊AWS (Amazon Web Services)实习。
  
-## Languages
+## 计算机语言
 + Java 
 + Python
 + C
@@ -18,14 +18,14 @@ I will work as an SDE Intern at AWS this summer.
 + HTML/CSS
 + SQL
 
-## Technology
+## 技术
 + Hadoop
 + SparkJava
 + AWS
 + Spring
 + Hibernate 
 
-## Projects  
-+ [PennInSearch: A Distributed Web Crawler and Search Engine (Java/Hadoop/AWS/Storm/SparkJava)]({{ site.url }}/PennInSearch)
-+ [PennOS: A User-level UNIX-like Operating System (C/Unix/Git)]({{ site.url }}/PennOS)
-+ [PennCloud: A Fault-tolerant Distributed Cloud Platform (C/C++/Git/Linux)]({{ site.url }}/PennCloud)
+## 项目  
++ [PennInSearch: 一个分布式网络爬虫和搜索引擎 (Java/Hadoop/AWS/Storm/SparkJava)]({{ site.url }}/PennInSearch-zh)
++ [PennOS: 一个用户级别的类UNIX操作系统 (C/Unix/Git)]({{ site.url }}/PennOS-zh)
++ [PennCloud: 一个具有容错能力的分布式云存储平台 (C/C++/Git/Linux)]({{ site.url }}/PennCloud-zh)
