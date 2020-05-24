@@ -114,7 +114,7 @@ show-author: true
 animation: true
 
 # multi-language support
-lang:
+language:
   English:
     url: https://czahie.github.io/
     name: "Zhe Cai"

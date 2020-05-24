@@ -16,16 +16,16 @@
             {% else %} 
                 <a class="link" href="{{ site.url }}/about-zh">
             {% endif %}
-                    <img class="selfie" alt="{{ site.lang[page.lang].name }}" src="{% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %}" />
+                    <img class="selfie" alt="{{ site.language[page.lang].name }}" src="{% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %}" />
                 </a>
         {% else %}
             <span class="link">
-                <img class="selfie" alt="{{ site.lang[page.lang].name }}" src="{% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %}" />
+                <img class="selfie" alt="{{ site.language[page.lang].name }}" src="{% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %}" />
             </span>
         {% endif %}
 
-        <h1 class="title">{{ site.lang[page.lang].name }}</h1>
-        <h2 class="description">{{ site.lang[page.lang].bio }}</h2>
+        <h1 class="title">{{ site.language[page.lang].name }}</h1>
+        <h2 class="description">{{ site.language[page.lang].bio }}</h2>
 
         {% include social-links.html %}
     </header>
