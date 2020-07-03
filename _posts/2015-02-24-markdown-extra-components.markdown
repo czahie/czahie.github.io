@@ -5,7 +5,7 @@ date: 2016-02-24 22:48
 lang: English
 ref: markdownextra
 image: /assets/images/markdown.jpg
-headerImage: false
+headerImage: true
 tag:
 - markdown
 - components
@@ -13,6 +13,7 @@ tag:
 category: blog
 author: jamesfoster
 description: Markdown summary with different options
+hidden: true
 ---
 
 ## Summary:
