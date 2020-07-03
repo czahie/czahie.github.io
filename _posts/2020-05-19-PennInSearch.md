@@ -17,8 +17,20 @@ author: joe
 externalLink: false
 ---
 
----
+# Overview
 
+In this team project, we built a distributed web indexer/crawler and analyze its performance. This involved several components, each of which is loosely coupled with the others:
 
----
++ Crawler+ Indexer/TF-IDF Retrieval Engine+ PageRank
++ Search Engine and User Interface
 
+# Tech Stack
++ Java 
++ HTML/CSS
++ AWS
++ SparkJava
++ Hadoop
+
+# Screenshots
+
+![main page](/assets/images/PennInSearch/main_page.png)
