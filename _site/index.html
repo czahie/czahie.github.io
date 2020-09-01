@@ -185,6 +185,8 @@ template { display: none; }
 /** Add the correct display in IE 10. */
 [hidden] { display: none; }
 
+#particles-js { position: fixed; width: 100%; height: 100%; background: #b4caf3; z-index: -10; top: 0; left: 0; }
+
 /* GitHub style for Pygments syntax highlighter, for use with Jekyll Courtesy of GitHub.com */
 .highlight .c { color: #999988; font-style: italic; }
 .highlight .err { color: #a61717; background-color: #e3d2d2; }
@@ -276,7 +278,7 @@ img, pre, iframe { max-width: 100%; }
 
 img, pre { border-radius: 4px; }
 
-figcaption { position: relative; top: -20px; left: 0; right: 0; margin: 0 auto; width: 100%; text-align: center; font-size: 1.3rem; color: #aaa; font-weight: 300; }
+figcaption { position: relative; top: -20px; left: 0; right: 0; margin: 0 auto; width: 100%; text-align: center; font-size: 1.3rem; color: #222; font-weight: 300; }
 @media only screen and (max-width: 400px) { figcaption { font-size: 1.2rem; } }
 
 blockquote { padding-left: 15px; border-left: 3px solid #eee; }
@@ -317,7 +319,7 @@ pre { box-sizing: border-box; margin: 0 0 1.75em 0; width: 100%; padding: 5px 10
 .home > .list > .item > .url, .blog > .list > .item > .url, .projects > .list > .item > .url { width: 100%; display: block; padding: 20px 0; text-decoration: none; }
 .home > .list > .item > .url > .title, .blog > .list > .item > .url > .title, .projects > .list > .item > .url > .title { margin: 0; width: 75%; font-weight: 500; transition: all ease-in-out 0.2s; }
 .home > .list > .item:hover > .url > .title, .blog > .list > .item:hover > .url > .title, .projects > .list > .item:hover > .url > .title { color: #4b0082; }
-.home > .list aside, .blog > .list aside, .projects > .list aside { position: relative; top: 2px; margin: 0; width: 25%; float: right; font-weight: 300; color: #aaa; text-align: right; transition: all ease-in-out 0.2s; }
+.home > .list aside, .blog > .list aside, .projects > .list aside { position: relative; top: 2px; margin: 0; width: 25%; float: right; font-weight: 300; color: #222; text-align: right; transition: all ease-in-out 0.2s; }
 .home > .list .item:hover .url aside, .blog > .list .item:hover .url aside, .projects > .list .item:hover .url aside { color: #666; }
 
 .blog > .list > .item > .url > .title, .projects > .list > .item > .url > .title { display: inline; }
@@ -330,7 +332,7 @@ pre { box-sizing: border-box; margin: 0 0 1.75em 0; width: 100%; padding: 5px 10
 
 .post { margin-top: 125px; }
 .post > .title { text-align: center; margin-bottom: 3rem; }
-.post > .date, .post > .post-tags { color: #aaa; font-weight: 300; font-size: 1.4rem; text-transform: uppercase; text-align: center; display: block; margin-bottom: 6rem; letter-spacing: 1px; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; }
+.post > .date, .post > .post-tags { color: #222; font-weight: 300; font-size: 1.4rem; text-transform: uppercase; text-align: center; display: block; margin-bottom: 6rem; letter-spacing: 1px; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; }
 .post > .date { margin-bottom: 2rem; }
 .post > .post-tags > .item { padding: 2px 8px; border-radius: 3px; font-size: 1.1rem; background: #ededed; color: #666; letter-spacing: 1px; margin: 3px 1px; text-decoration: none; display: inline-block; }
 .post > h2, .post > h3, .post > h4 { margin-top: 40px; }
@@ -351,7 +353,7 @@ pre { box-sizing: border-box; margin: 0 0 1.75em 0; width: 100%; padding: 5px 10
 .tag-list > .list > .item > .url { width: 100%; height: 100%; display: block; padding: 20px 0; text-decoration: none; }
 .tag-list > .list > .item > .url > .title { margin: 0; width: 75%; font-weight: 400; transition: all ease-in-out 0.2s; font-size: 1.6rem; }
 .tag-list > .list > .item:hover > .url > .title { color: #4b0082; }
-.tag-list > .list aside { position: relative; top: 2px; margin: 0; width: 25%; float: right; font-weight: 300; color: #aaa; text-align: right; transition: all ease-in-out 0.2s; font-size: 1.6rem; }
+.tag-list > .list aside { position: relative; top: 2px; margin: 0; width: 25%; float: right; font-weight: 300; color: #222; text-align: right; transition: all ease-in-out 0.2s; font-size: 1.6rem; }
 .tag-list > .list .item:hover .url aside { color: #666; }
 
 .author { padding: 3rem 0; border-bottom: 1px solid #ededed; border-top: 1px solid #ededed; max-width: 100%; margin: 4rem auto 0; }
@@ -360,7 +362,7 @@ pre { box-sizing: border-box; margin: 0 0 1.75em 0; width: 100%; padding: 5px 10
 .author > .toright > .name { font-size: 1.5rem; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: 500; margin: 6px 0 0; }
 @media only screen and (max-width: 400px) { .author > .toright > .name { width: 100%; display: block; } }
 @media only screen and (min-width: 400px) and (max-width: 1050px) { .author > .toright > .name { width: 100%; display: block; } }
-.author > .toright > .bio { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: 300; color: #aaa; font-size: 1.3rem; text-align: justify; line-height: 1.5; margin: 0; }
+.author > .toright > .bio { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight: 300; color: #222; font-size: 1.3rem; text-align: justify; line-height: 1.5; margin: 0; }
 @media only screen and (max-width: 400px) { .author > .toright > .bio { width: 100%; display: block; } }
 @media only screen and (min-width: 400px) and (max-width: 1050px) { .author > .toright > .bio { width: 100%; display: block; } }
 .author > .toleft { width: 10%; display: inline-block; }
@@ -374,21 +376,21 @@ pre { box-sizing: border-box; margin: 0 0 1.75em 0; width: 100%; padding: 5px 10
 
 .disqus { margin: 0 auto; max-width: 100%; padding: 40px 0; }
 
-.footer-main { border-top: 1px solid #ededed; padding: 40px 0; margin: 40px 0 0; font-size: 1.3rem; color: #aaa; font-weight: 300; text-align: center; position: relative; }
+.footer-main { border-top: 1px solid #ededed; padding: 40px 0; margin: 40px 0 0; font-size: 1.3rem; color: #222; font-weight: 300; text-align: center; position: relative; }
 .footer-main:before { display: block; content: " "; width: 7px; height: 7px; border: #ededed 1px solid; position: absolute; top: -5px; left: 50%; margin-left: -5px; background: #FFF; box-shadow: #FFF 0 0 0 5px; border-radius: 3px; }
 .footer-main > .copyright { padding-left: 10px; }
 .footer-main > .link { display: inline; vertical-align: middle; }
-.footer-main > .link > .icon { width: 15px !important; fill: #aaa !important; transition: ease-in-out all 0.3s; position: relative; display: inherit; top: -2px; margin: 0; left: 2px; }
+.footer-main > .link > .icon { width: 15px !important; fill: #222 !important; transition: ease-in-out all 0.3s; position: relative; display: inherit; top: -2px; margin: 0; left: 2px; }
 .footer-main > .link > .icon:hover { fill: #4b0082 !important; }
-.footer-main > .extra { color: #aaa; margin-top: 0; }
+.footer-main > .extra { color: #222; margin-top: 0; }
 .footer-main > .extra > .link { color: #222; text-decoration: none; border-bottom: 1px solid transparent; transition: ease-in-out all 0.3s; padding-bottom: 1px; }
-.footer-main > .extra > .link:hover { border-color: #aaa; }
+.footer-main > .extra > .link:hover { border-color: #222; }
 
 .header-home { display: block; margin: 0 auto; text-align: center; position: relative; z-index: 99; }
 .header-home > .link > .selfie { width: 125px; height: 125px; margin-bottom: 25px; border-radius: 100%; transition: all 0.2s; opacity: 1; }
 .header-home > .link > .selfie:hover { box-shadow: 0 0px 4px 0 rgba(0, 0, 0, 0.18), 0 0px 12px 0 rgba(0, 0, 0, 0.15); opacity: 0.8; }
 .header-home > .title { font-size: 4rem; margin: 0 0 13px; }
-.header-home > .description { font-size: 1.85rem; font-weight: 300; font-style: normal; color: #aaa; width: 70%; margin: 0 auto 30px; }
+.header-home > .description { font-size: 1.85rem; font-weight: 300; font-style: normal; color: #222; width: 70%; margin: 0 auto 30px; }
 .header-home > .description a { font-weight: 200; }
 
 .lang > .list, .lang-home > .list { list-style: none; margin: 0; padding: 0 13px 0; }
@@ -432,7 +434,7 @@ pre { box-sizing: border-box; margin: 0 0 1.75em 0; width: 100%; padding: 5px 10
 @media only screen and (min-width: 400px) and (max-width: 1050px) { .bigger-image { min-width: 114%; margin: 2rem 0 2rem -7%; } }
 
 .breaker { height: 1px; margin: 6rem auto; width: 100%; }
-.breaker:before { content: "• • •"; width: 100%; text-align: center; display: block; color: #aaa; letter-spacing: 4px; position: relative; top: -8px; }
+.breaker:before { content: "• • •"; width: 100%; text-align: center; display: block; color: #222; letter-spacing: 4px; position: relative; top: -8px; }
 
 .lost-container { text-align: center; }
 
@@ -483,7 +485,11 @@ pre { box-sizing: border-box; margin: 0 0 1.75em 0; width: 100%; padding: 5px 10
 
 </head>
 <body>
-
+    <div id="particles-js"></div>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script>
+        particlesJS.load('particles-js', '/assets/js/particles.json');
+    </script> 
     <div class="wrapper-normal">
         
             
@@ -811,7 +817,6 @@ pre { box-sizing: border-box; margin: 0 0 1.75em 0; width: 100%; padding: 5px 10
         </symbol>
     </defs>
 </svg>
-
 
 </body>
 </html>

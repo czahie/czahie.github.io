@@ -31,7 +31,11 @@ layout: compress
 
 </head>
 <body>
-
+    <div id="particles-js"></div>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script>
+        particlesJS.load('particles-js', '/assets/js/particles.json');
+    </script> 
     <div class="wrapper-{% if site.width == "normal" %}normal{% elsif site.width == "large" %}large{% endif %}">
         {% if page.tag %}
             <div class="post">
@@ -48,6 +52,5 @@ layout: compress
     </div>
 
     {% include icons.html %}
-
 </body>
 </html>
