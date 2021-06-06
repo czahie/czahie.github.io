@@ -16,13 +16,13 @@ resume: true
 resume-external: false
 resume-url: assets/files/Zhe_Cai_Resume_2020.pdf
 
-url: https://czahie.me
+url: https://czahie.github.io
 # your url: https://USERNAME.github.io
 
 permalink: /:title/
 
 # To enable google analytics, supply your token below
-analytics-google: 'UA-167321332-1'
+analytics-google: "UA-167321332-1"
 
 # To enable baidu analytics, supply your token below
 analytics-baidu: 7cfa01ef1704d8a568e8a0faf14e33ea
@@ -33,8 +33,8 @@ analytics-baidu: 7cfa01ef1704d8a568e8a0faf14e33ea
 
 # if you don't want comments in your posts, leave categories empty
 disqus:
-  shortname: czahie # enter this from your disqus account
-  categories: [blog, project] # only show disqus for posts that have these categories
+    shortname: czahie # enter this from your disqus account
+    categories: [blog, project] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
 # facebook: myfacebook
@@ -56,24 +56,23 @@ github: czahie
 email: czahie1996@gmail.com
 
 authors:
-  # johndoe:
-  #   name: John Doe
-  #   bio: A Man who travels the world eating noodles
-  #   external-image: false
-  #   picture: assets/images/profile.jpg
-  #   twitter: johndoe
-  joe:
-    name: Zhe Cai
-    bio: A man who is chasing dreams
-    external-image: false
-    picture: assets/images/profile.jpg
-    # twitter: jamesfoster
-  蔡喆:
-    name: 蔡喆
-    bio: 不畏浮云遮望眼
-    external-image: false
-    picture: assets/images/profile.jpg
-    
+    # johndoe:
+    #   name: John Doe
+    #   bio: A Man who travels the world eating noodles
+    #   external-image: false
+    #   picture: assets/images/profile.jpg
+    #   twitter: johndoe
+    joe:
+        name: Zhe Cai
+        bio: A man who is chasing dreams
+        external-image: false
+        picture: assets/images/profile.jpg
+        # twitter: jamesfoster
+    蔡喆:
+        name: 蔡喆
+        bio: 不畏浮云遮望眼
+        external-image: false
+        picture: assets/images/profile.jpg
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
@@ -82,11 +81,11 @@ width: normal
 
 # if you do/don't need pagination, toggle 'enabled' between true/false below
 pagination:
-  enabled: false
-  sort_reverse: true # display recent posts first
-  title: ":title" # Changing this will mess up the header display logic
-  per_page: 5
-  permalink: "/:num/" # pagination link that will be appended
+    enabled: false
+    sort_reverse: true # display recent posts first
+    title: ":title" # Changing this will mess up the header display logic
+    per_page: 5
+    permalink: "/:num/" # pagination link that will be appended
 
 # if you don't need projects, comment the *projects* configs below
 projects: true
@@ -115,59 +114,59 @@ animation: true
 
 # multi-language support
 language:
-  English:
-    url: https://czahie.github.io/
-    name: "Zhe Cai"
-    bio: "A man who is chasing dreams"
-    home: "Home"
-    blog: "Blog"
-    projects: "Projects"
-    about: "About"
-    resume: "Résumé"
-  中文:
-    url: https://czahie.github.io/index-zh
-    name: "蔡喆"
-    bio: 不畏浮云遮望眼
-    home:  "首页"
-    blog: "博客"
-    projects: "项目"
-    about: "关于"
-    resume: "简历"
+    English:
+        url: https://czahie.github.io/
+        name: "Zhe Cai"
+        bio: "A man who is chasing dreams"
+        home: "Home"
+        blog: "Blog"
+        projects: "Projects"
+        about: "About"
+        resume: "Résumé"
+    中文:
+        url: https://czahie.github.io/index-zh
+        name: "蔡喆"
+        bio: 不畏浮云遮望眼
+        home: "首页"
+        blog: "博客"
+        projects: "项目"
+        about: "关于"
+        resume: "简历"
 
 # add default values to specific pages or layouts
 defaults:
-  - scope:
-      path: "" # an empty string here means all files in the project
-      layout: "post"
-    values:
-      # setting all post to not hidden by default,
-      # can be overridden in the front matter for a specific post
-      hidden: false
+    - scope:
+          path: "" # an empty string here means all files in the project
+          layout: "post"
+      values:
+          # setting all post to not hidden by default,
+          # can be overridden in the front matter for a specific post
+          hidden: false
 
 plugins:
-  - jekyll-seo-tag
-  - jekyll-gist
-  - jekyll-feed
-  - jemoji
-  - jekyll-admin
-  - jekyll-paginate-v2
+    - jekyll-seo-tag
+    - jekyll-gist
+    - jekyll-feed
+    - jemoji
+    - jekyll-admin
+    - jekyll-paginate-v2
 
 jekyll-mentions:
-  base_url: https://github.com
+    base_url: https://github.com
 
 compress_html:
-  ignore:
-    envs:
-      - development
-      - stage
+    ignore:
+        envs:
+            - development
+            - stage
 
 exclude:
-  [
-    "travis.sh",
-    "README.md",
-    "Gemfile",
-    "Gemfile.lock",
-    "FAQ.md",
-    "node_modules",
-    "vendor",
-  ]
+    [
+        "travis.sh",
+        "README.md",
+        "Gemfile",
+        "Gemfile.lock",
+        "FAQ.md",
+        "node_modules",
+        "vendor",
+    ]
