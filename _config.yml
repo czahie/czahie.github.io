@@ -16,7 +16,7 @@ resume: true
 resume-external: false
 resume-url: assets/files/Zhe_Cai_Resume_2020.pdf
 
-url: https://czahie.github.io
+url: https://czahie.me
 # your url: https://USERNAME.github.io
 
 permalink: /:title/
